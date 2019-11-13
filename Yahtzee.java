@@ -492,17 +492,12 @@ public class Yahtzee {
 
     
     public static void main(String[] args){
-        System.out.println("Command Line Yahtzee!");
-        int highscore = 0;
-        
-
-        
+        System.out.println("Command Line Yahtzee!");      
         for(int i=0; i<categories.length; i++){
             categories[i] = true;
         }
         boolean cont = false;
         score = 0;
-        System.out.println("Highscore: " + highscore);
         while(true){
             cont = false;
             release_holds();       
