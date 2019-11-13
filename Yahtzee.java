@@ -517,10 +517,7 @@ public class Yahtzee {
             System.out.println("Your Upper Section got 63 or above score! You get a 35 score bonus!");
             score += 35;
         }
-        System.out.println("Highscore: " + highscore);
-        if(score > highscore){
-            System.out.println("Congratulations! You got a new highscore!");
-        }
+       
         System.out.println("Game Finished!\nYour score was " + score + "!");
 
     }
